@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" href="images/logo.png" type="png">
+    <title>Krushna Gund</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body onload="onload()">
+    <div id="loaderr"></div>
+    <nav>
+        <div class="nav_content">
+            <div class="logo"><a href="#">Krushna</a></div>
+            <label for="check" class="checkbox">
+                <i class="uil uil-bars"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="index.html" target="_parent">Home</a></li>
+                <li><a href="about.html" class="active" target="_parent">About</a></li>
+                <li><a href="skills.html" target="_parent">Skills</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="moondarkmode"><i class="uil uil-moon" onclick="iconchange(this);darkmode()"></i></div>
+        </div>
+    </nav>
+
+    <div class="right">
+        <div class="acontent">
+            <h3 data-aos="zoom-up" data-aos-delay="300">Hi,I am Krushna</h3>
+            <h2 data-aos="zoom-up" data-aos-delay="300">I'm a Passionate Software Engineer, also Gadget interests me</h2>
+            <p   class="description" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-delay="900">I'm passionate about web development and technology, and my personality is deeply intertwined with these
+                interests. I consider myself a tech enthusiast with a strong affinity for coding and designing digital
+                experiences. My curiosity knows no bounds when it comes to exploring the latest web development tools,
+                languages, and frameworks.</p>
+            <p  class="description" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-delay="900">I'm the type of person who finds joy in solving complex problems through elegant code and creating
+                user-friendly websites and applications. My patience and attention to detail drive me to perfect the
+                finer points of web development, from responsive design to optimizing website performance. I thrive on
+                continuous learning, always seeking to expand my knowledge and stay up-to-date with industry trends.
+            </p>
+            <div class="conbtn" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-delay="600"><button><a href="contact.html">Contact Me</a></button></div>
+        </div>
+
+        <div class="left" data-aos="zoom-in" data-aos-delay="1200">
+            <img src="images/hbgremove.jpg" alt="">
+        </div>
+    </div>
+    <div class="askill1">
+        <h1>EXPERINCES</h1>
+        <div class="scontainer">
+            <div class="ascard1" data-aos="zoom-in" style="--i:3">
+                <div class="ctitle">
+                    <h3>Mitacs International Internship Canada</h3>
+                </div>
+                <div class="carskil" data-aos="zoom-in" style="--i:3">
+                    <h4>Web development Intern</h4>
+                </div>
+            </div>
+            <div class="ascard1" data-aos="zoom-in" style="--i:3">
+                <div class="ctitle">
+                    <h3>Entrepreneurship Devolopment cell  </h3>
+                </div>
+                <div class="carskil">
+                    <h4>Google developer Club</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="askill2">
+        <h1>EDUCATION</h1>
+        <div class="scontainer">
+            <div class="ascard3" data-aos="zoom-out" style="--i:1">
+                <div class="ctitle">
+                    <h3>B.Tech(2021-Pursuing)</h3>
+                </div>
+                <div class="carskil">
+                    <h4>Sanjivani College of Engineering,Kopargaon</h4>
+                </div>
+            </div>
+            <div class="ascard3" data-aos="zoom-out" style="--i:2">
+                <div class="ctitle">
+                    <h3>Junior College(2020-2021)</h3>
+                </div>
+                <div class="carskil">
+                    <h4>Shree Ganesh Junior College,Korhale</h4>
+                </div>
+            </div>
+            <div class="ascard3" data-aos="zoom-out" style="--i:3">
+                <div class="ctitle">
+                    <h3>School(2019)</h3>
+                </div>
+                <div class="carskil">
+                    <h4>Shri Chh.Shivaji Vidyalaya Kolpewadi</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact_container">
+        <div class="contact_box" data-aos="zoom-in">
+           <h2> Do you have any project idea?</h2>
+           <h1>Let's collabrate and make something innovative together</h1>
+           <div class="conbtna"><button><a href="contact.html">Contact Me</a></button></div>
+        </div>
+     </div>
+     <footer>
+        <div class="foot">
+            <div class="ftext">
+                <h3>Made with @krishnagund</h3>
+                <h4>Copyright © 8303</h4>
+            </div>
+            <div class="ficon">
+                 <a href="https://www.linkedin.com/in/krushna-gund-a33b32232"><i class="uil uil-linkedin-alt"></i></a>
+                <a href="https://github.com/krishnagund"><i class="uil uil-github-alt"></i></a>
+                <a href="https://www.instagram.com/_krishna_gund?igsh=N2I0a281YWN0bjZ5"><i class="uil uil-instagram-alt"></i></a>
+            </div>
+        </div>
+     </footer>
+    <div onclick="scrolltop()" class="scroll">
+        <i class="uil uil-angle-double-up"></i>
+    </div>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+    </script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
